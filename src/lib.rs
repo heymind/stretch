@@ -18,6 +18,8 @@ mod algo;
 mod forest;
 mod id;
 
+#[cfg(feature = "euclid")]
+mod euclid_convert;
 mod sys;
 
 pub use crate::node::Stretch;

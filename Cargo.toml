@@ -32,6 +32,11 @@ version = "1.0.102"
 features = ["serde_derive"]
 optional = true
 
+[dependencies.euclid]
+version = "0.22"
+optional = true
+
+
 [features]
 default = ["std"]
 alloc = ["hashbrown"]
